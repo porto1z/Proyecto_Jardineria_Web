@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jardineria Background</title>
+    <!--Boostrap Css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="icon" href="../img/icono/1.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="diseno.css">
+
+</head>
+<div class="menu-btn">
+    <i class="fas fa-bars fa-2x"></i>
+</div>
+
+<div class="container">
+<!-- Navigation -->
+<nav class="nav-main">
+    <!-- Brand -->
+    <img src="../img/icono/1.ico" alt="Logo" class="nav-brand">
+    <!-- Left Nav -->
+    <ul class="nav-menu">
+        <li>
+            <a href="../index.html">Inicio</a>
+        </li>
+        <li>
+            <a href="../paginas/carrito.html">Ver carrito</a>
+        </li>
+        <li>
+            <a href="../paginas/misCompras.html">Compras</a>
+        </li>
+        <li>
+            <a href="../paginas/suscribcion.html">Subcricion</a>
+        </li>
+        <li>
+            <a href="../paginas/productos.html">Productos</a>
+        </li>
+        <li>
+            <a href="../paginas/descuento.html">Promociones</a>
+        </li>
+    </ul>
+        <div>
+                <ul>
+                    <li>
+                        <a href="#">Registro</a>
+                    </li>
+                    <li>
+                        <a href="../paginas/login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+            
+            </div>
+        </div>
+    </nav>
+    <hr>
+    <div class="medio">
+        <header>
+            <div class="row header">
+                <div class="col-12 col-md-6 header-rs">
+                    <a href="https://www.facebook.com/" title="Visítanos en Facebook">
+                    <img src="img/icons8_facebook_48px.png" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/" title="Visítanos en Instagram">
+                    <img src="img/icons8_instagram_48px.png" alt="">
+                    </a>
+                    <a href="https://twitter.com/home" title="Visítanos en Twitter">
+                    <img src="img/icons8_twitter_48px.png" alt="">
+                    </a>
+                    <a href="" title="Entra a nuestro chat en Telegram">
+                    <img src="img/icons8_telegram_app_48px.png" alt="">
+                    </a>
+                </div>
+            </div>
+    </header>
+    </style>
+    <div class="contenedorapi">
+        <div class="rowapi">
+            <div class="col" id="pais"></div>
+        </div>
+        <div class="row">
+            <div class="col" id="imagen"></div>
+            <div class="col" id="temp"></div>
+        </div>
+        <div class="row">
+            <div class="col" id="clima"></div>
+        </div>
+    </div>
+    <!--FIN MENÚ-->
+    <body>
+        <div class="contact_form">
+            <div class="formulario">     
+                <h1>Formulario de contacto</h1>
+                <h3>Escríbenos y en breve los pondremos en      contacto contigo</h3>
+                    <form action="/formulario" method="POST" id="formulario">    <!--Aqui si tenemos nustro formulario en PHP o estamos utilizando algun frengor que se encarge en olcultarnos las extenciones de nuestros archivos le podemos indicar Ejemplo /formulario.php-->   
+                        <label for="nombres" class="colocar_nombres">Nombre Completo
+                        <span class="obligatorio">*</span>
+                        </label>
+                        <input type="text" name="introducir_nombres" id="nombres" required="obligatorio" placeholder="Escribe tu nombre">
+                        <br>
+                        <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                        </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                        <br>
+                        <label for="telefone" class="colocar_telefono">Rut
+                        </label>
+                        <input type="tel" name="Rut" id="telefono" placeholder="Escribe tu Rut">
+                        <br>
+                        <label for="telefone" class="colocar_telefono">Ciudad de Residencia
+                        </label>
+                        <input type="tel" name="Ciudad de Recidencia" id="telefono" placeholder="Escribe tu Ciudad de Residencia ">
+                        <br>
+                        <label for="telefone" class="colocar_telefono">Pasaporte
+                        </label>
+                        <input type="tel" name="Pasaporte" id="telefono" placeholder="Escribe tu número de pasaporte ">
+                        <br>
+                        <label for="telefone" class="colocar_telefono">Contacto telefónico*</label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu número telefónico">
+                        <br>
+                        <label for="mensaje" class="colocar_mensaje">Asunto<span class="obligatorio">*</span></label> <br>                    
+                        <textarea cols="55" rows="10" type="text" name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"placeholder="Háblanos de tu asunto..."></textarea> 
+                        <br>                              
+                        <button class="button" type="submit">Enviar</button>
+                        <button class="button" type="reset">Lipiar</button>
+                    </form>
+                </div>  
+            </div>
+        </body>
+    <hr>
+    <!-- Follow -->
+    <section class="social">
+        <p>Redes Sociales</p>
+        <div class="links">
+        <a href="https://facebook.com">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://linkdin.com">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        </div>
+    </section>
+    </div>
+    <!-- Footer Links -->
+    <div class="footer-links">
+    <div class="footer-container">
+        <ul>
+        <li>
+            <a href="#">
+            <h3>Lorem, ipsum.</h3>
+            </a>
+        </li>
+        <li>
+            <a href="#">lorem</a>
+        </li>
+        <li>
+            <a href="#">Lorem ipsum dolor sit.</a>
+        </li>
+        <li>
+            <a href="#">Lorem ipsum dolor sit.</a>
+        </li>
+        </ul>
+        <ul>
+        <li>
+            <a href="#">
+            <h3>Lorem, ipsum.</h3>
+            </a>
+        </li>
+        <li>
+            <a href="#">Lorem, ipsum.</a>
+        </li>
+        <li>
+            <a href="#">Lorem, ipsum.</a>
+        </li>
+        <li>
+            <a href="#">Lorem, ipsum dolor.</a>
+        </li>
+        </ul>
+        <ul>
+        <li>
+            <a href="#">
+            <h3>lorem</h3>
+            </a>
+        </li>
+        <li>
+            <a href="#">Lorem, ipsum.</a>
+        </li>
+        <li>
+            <a href="#">Lorem, ipsum dolor.</a>
+        </li>
+        <li>
+            <a href="#">Lorem, ipsum dolor.</a>
+        </li>
+        </ul>
+        <ul>
+        <li>
+            <a href="#">
+            <h3>Lorem, ipsum.</h3>
+            </a>
+        </li>
+        <li>
+            <a href="#">Lorem, ipsum.</a>
+        </li>
+        <li>
+            <a href="#">Lorem, ipsum dolor.</a>
+        </li>
+        <li>
+            <a href="#">Lorem, ipsum dolor.</a>
+        </li>
+        </ul>
+    </div>
+    </div>
+
+    </footer>
+</body>
+</html>

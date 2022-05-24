@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jardineria Background</title>
+    <!--Boostrap Css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="icon" href="../img/icono/1.ico">
+
+    <!---->
+    
+<title>Free Snow Bootstrap Website Template | Shop :: w3layouts</title>
+<link href="../Css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="../Css/style.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="../js/jquery.min.js"></script>
+<script type="text/javascript">
+        $(document).ready(function() {
+            $(".dropdown img.flag").addClass("flagvisibility");
+
+            $(".dropdown dt a").click(function() {
+                $(".dropdown dd ul").toggle();
+            });
+                        
+            $(".dropdown dd ul li a").click(function() {
+                var text = $(this).html();
+                $(".dropdown dt a span").html(text);
+                $(".dropdown dd ul").hide();
+                $("#result").html("Selected value is: " + getSelectedValue("sample"));
+            });
+                        
+            function getSelectedValue(id) {
+                return $("#" + id).find("dt a span.value").html();
+            }
+
+            $(document).bind('click', function(e) {
+                var $clicked = $(e.target);
+                if (! $clicked.parents().hasClass("dropdown"))
+                    $(".dropdown dd ul").hide();
+            });
+
+
+            $("#flagSwitcher").click(function() {
+                $(".dropdown img.flag").toggleClass("flagvisibility");
+            });
+        });
+    </script>
+</head>
+
+<div class="menu-btn">
+    <i class="fas fa-bars fa-2x"></i>
+</div>
+
+<div class="container">
+<!-- Navigation -->
+<nav class="nav-main">
+    <!-- Brand -->
+    <img src="../img/icono/1.ico" alt="Logo" class="nav-brand">
+    <!-- Left Nav -->
+    <ul class="nav-menu">
+    <li>
+    <a href="../index.html">Inicio</a>
+        </li>
+        <li>
+            <a href="../paginas/carrito.html">Ver carrito</a>
+        </li>
+        <li>
+            <a href="#">Compras</a>
+        </li>
+        <li>
+            <a href="../paginas/registro.html">Subcricion</a>
+        </li>
+        <li>
+            <a href="../paginas/productos.html">Productos</a>
+        </li>
+        <li>
+            <a href="../paginas/descuento.html">Promociones</a>
+        </li>
+        
+    </ul>
+    <div>
+            <ul>
+                <li>
+                    <a href="../paginas/registro.html">Registro</a>
+                </li>
+                <li>
+                    <a href="../paginas//login.html">Login</a>
+            </li>
+        </ul>
+    </div>
+            
+            </div>
+        </div>
+    </nav>
+    <hr>
+    <!--Carrito-->
+    <div class="shop_top">
+		<div class="container">
+			<div class="row shop_box-top">
+				<div class="col-md-3 shop_box"><a href="single.html">
+					<img src="../img/Arbustos/arbustos/1.png" class="img-responsive" alt="">
+					<span class="new-box">
+						<span class="new-label">New</span>
+					</span>
+					<span class="sale-box">
+						<span class="sale-label">Sale!</span>
+					</span>
+					</a><div class="shop_desc"><a href="single.html">
+						</a><h3><a href="single.html"></a><a href="#">aliquam volutp</a></h3>
+						<p>Lorem ipsum consectetuer adipiscing </p>
+						<span class="reducedfrom">$66.00</span>
+						<span class="actual">$12.00</span><br>
+						<ul class="buttons">
+							<li class="cart"><a href="#">Add To Cart</a></li>
+							<li class="shop_btn"><a href="#">Read More</a></li>
+							<div class="clear"> </div>
+					    </ul>
+				    </div>
+				</div>
+				<div class="col-md-3 shop_box"><a href="single.html">
+					<img src="../img/Arbustos/arbustos/2.png" class="img-responsive" alt="">
+					<span class="new-box">
+						<span class="new-label">New</span>
+					</span>
+					</a><div class="shop_desc"><a href="single.html">
+						</a><h3><a href="single.html"></a><a href="#">aliquam volutp</a></h3>
+						<p>Lorem ipsum consectetuer adipiscing </p>
+						<span class="actual">$12.00</span><br>
+						<ul class="buttons">
+							<li class="cart"><a href="#">Add To Cart</a></li>
+							<li class="shop_btn"><a href="#">Read More</a></li>
+							<div class="clear"> </div>
+					    </ul>
+				    </div>
+				</div>
+				<div class="col-md-3 shop_box"><a href="single.html">
+					<img src="../img/Arbustos/arbustos/3.png" class="img-responsive" alt="">
+					<span class="new-box">
+						<span class="new-label">New</span>
+					</span>
+					<span class="sale-box">
+						<span class="sale-label">Sale!</span>
+					</span>
+					</a><div class="shop_desc"><a href="single.html">
+						</a><h3><a href="single.html"></a><a href="#">aliquam volutp</a></h3>
+						<p>Lorem ipsum consectetuer adipiscing </p>
+						<span class="reducedfrom">$66.00</span>
+						<span class="actual">$12.00</span><br>
+						<ul class="buttons">
+							<li class="cart"><a href="#">Add To Cart</a></li>
+							<li class="shop_btn"><a href="#">Read More</a></li>
+							<div class="clear"> </div>
+					    </ul>
+				    </div>
+				</div>
+				<div class="col-md-3 shop_box"><a href="single.html">
+					<img src="../img/Arbustos/arbustos/4.png" class="img-responsive" alt="">
+					<span class="new-box">
+						<span class="new-label">New</span>
+					</span>
+					</a><div class="shop_desc"><a href="single.html">
+						</a><h3><a href="single.html"></a><a href="#">aliquam volutp</a></h3>
+						<p>Lorem ipsum consectetuer adipiscing </p>
+						<span class="reducedfrom">$66.00</span>
+						<span class="actual">$12.00</span><br>
+						<ul class="buttons">
+							<li class="cart"><a href="#">Add To Cart</a></li>
+							<li class="shop_btn"><a href="#">Read More</a></li>
+							<div class="clear"> </div>
+					    </ul>
+				    </div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 shop_box"><a href="single.html">
+					<img src="../img/Arbustos/arbustos/5.png" class="img-responsive" alt="">
+					<span class="new-box">
+						<span class="new-label">New</span>
+					</span>
+					</a><div class="shop_desc"><a href="single.html">
+						</a><h3><a href="single.html"></a><a href="#">aliquam volutp</a></h3>
+						<p>Lorem ipsum consectetuer adipiscing </p>
+						<span class="actual">$12.00</span><br>
+						<ul class="buttons">
+							<li class="cart"><a href="#">Add To Cart</a></li>
+							<li class="shop_btn"><a href="#">Read More</a></li>
+							<div class="clear"> </div>
+					    </ul>
+				    </div>
+				</div>
+				<div class="col-md-3 shop_box"><a href="single.html">
+					<img src="../img/Arbustos/arbustos/6.png" class="img-responsive" alt="">
+					<span class="new-box">
+						<span class="new-label">New</span>
+					</span>
+					<span class="sale-box">
+						<span class="sale-label">Sale!</span>
+					</span>
+					</a><div class="shop_desc"><a href="single.html">
+						</a><h3><a href="single.html"></a><a href="#">aliquam volutp</a></h3>
+						<p>Lorem ipsum consectetuer adipiscing </p>
+						<span class="actual">$12.00</span><br>
+						<ul class="buttons">
+							<li class="cart"><a href="#">Add To Cart</a></li>
+							<li class="shop_btn"><a href="#">Read More</a></li>
+							<div class="clear"> </div>
+					    </ul>
+				    </div>
+				</div>
+				<div class="col-md-3 shop_box"><a href="single.html">
+					<img src="../img/Arbustos/arbustos/7.png" class="img-responsive" alt="">
+					<span class="new-box">
+						<span class="new-label">New</span>
+					</span>
+					</a><div class="shop_desc"><a href="single.html">
+						</a><h3><a href="single.html"></a><a href="#">aliquam volutp</a></h3>
+						<p>Lorem ipsum consectetuer adipiscing </p>
+						<span class="reducedfrom">$66.00</span>
+						<span class="actual">$12.00</span><br>
+						<ul class="buttons">
+							<li class="cart"><a href="#">Add To Cart</a></li>
+							<li class="shop_btn"><a href="#">Read More</a></li>
+							<div class="clear"> </div>
+					    </ul>
+				    </div>
+				</div>
+				<div class="col-md-3 shop_box"><a href="single.html">
+					<img src="../img/Arbustos/arbustos/9.png" class="img-responsive" alt="">
+					<span class="new-box">
+						<span class="new-label">New</span>
+					</span>
+					<span class="sale-box">
+						<span class="sale-label">Sale!</span>
+					</span>
+					</a>
+                    <div class="shop_desc"><a href="single.html">
+						</a><h3><a href="single.html"></a><a href="#">aliquam volutp</a></h3>
+						<p>Lorem ipsum consectetuer adipiscing </p>
+						<span class="reducedfrom">$66.00</span>
+						<span class="actual">$12.00</span><br>
+						<ul class="buttons">
+							<li class="cart"><a href="#">Add To Cart</a></li>
+							<li class="shop_btn"><a href="#">Read More</a></li>
+							<div class="clear"> </div>
+					    </ul>
+				    </div>
+                    
+				</div>
+			</div>
+        </div>
+    </div>
+<hr>
+ <!--Carrito-->
+    <div class="shop_top">
+		<div class="container">
+			<div class="row shop_box-top">
+				<div class="col-md-3 shop_box"><a href="single.html">
+					<img src="../img/Catus/catus/1.png" class="img-responsive" alt="">
+					<span class="new-box">
+						<span class="new-label">New</span>
+					</span>
+					<span class="sale-box">
+						<span class="sale-label">Sale!</span>
+					</span>
+					</a><div class="shop_desc"><a href="single.html">
+						</a><h3><a href="single.html"></a><a href="#">aliquam volutp</a></h3>
+						<p>Lorem ipsum consectetuer adipiscing </p>
+						<span class="reducedfrom">$66.00</span>
+						<span class="actual">$12.00</span><br>
+						<ul class="buttons">
+							<li class="cart"><a href="#">Add To Cart</a></li>
+							<li class="shop_btn"><a href="#">Read More</a></li>
+							<div class="clear"> </div>
+					    </ul>
+				    </div>
+				</div>
+				<div class="col-md-3 shop_box"><a href="single.html">
+					<img src="../img/Catus/catus/2.png" class="img-responsive" alt="">
+					<span class="new-box">
+						<span class="new-label">New</span>
+					</span>
+					</a><div class="shop_desc"><a href="single.html">
+						</a><h3><a href="single.html"></a><a href="#">aliquam volutp</a></h3>
+						<p>Lorem ipsum consectetuer adipiscing </p>
+						<span class="actual">$12.00</span><br>
+						<ul class="buttons">
+							<li class="cart"><a href="#">Add To Cart</a></li>
+							<li class="shop_btn"><a href="#">Read More</a></li>
+							<div class="clear"> </div>
+					    </ul>
+				    </div>
+				</div>
+				<div class="col-md-3 shop_box"><a href="single.html">
+					<img src="../img/Catus/catus/3.png" class="img-responsive" alt="">
+					<span class="new-box">
+						<span class="new-label">New</span>
+					</span>
+					<span class="sale-box">
+						<span class="sale-label">Sale!</span>
+					</span>
+					</a><div class="shop_desc"><a href="single.html">
+						</a><h3><a href="single.html"></a><a href="#">aliquam volutp</a></h3>
+						<p>Lorem ipsum consectetuer adipiscing </p>
+						<span class="reducedfrom">$66.00</span>
+						<span class="actual">$12.00</span><br>
+						<ul class="buttons">
+							<li class="cart"><a href="#">Add To Cart</a></li>
+							<li class="shop_btn"><a href="#">Read More</a></li>
+							<div class="clear"> </div>
+					    </ul>
+				    </div>
+				</div>
+				<div class="col-md-3 shop_box"><a href="single.html">
+					<img src="../img/Catus/catus/9.png" class="img-responsive" alt="">
+					<span class="new-box">
+						<span class="new-label">New</span>
+					</span>
+					</a><div class="shop_desc"><a href="single.html">
+						</a><h3><a href="single.html"></a><a href="#">aliquam volutp</a></h3>
+						<p>Lorem ipsum consectetuer adipiscing </p>
+						<span class="reducedfrom">$66.00</span>
+						<span class="actual">$12.00</span><br>
+						<ul class="buttons">
+							<li class="cart"><a href="#">Add To Cart</a></li>
+							<li class="shop_btn"><a href="#">Read More</a></li>
+							<div class="clear"> </div>
+					    </ul>
+				    </div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 shop_box"><a href="single.html">
+					<img src="../img/Catus/catus/3.png" class="img-responsive" alt="">
+					<span class="new-box">
+						<span class="new-label">New</span>
+					</span>
+					</a><div class="shop_desc"><a href="single.html">
+						</a><h3><a href="single.html"></a><a href="#">aliquam volutp</a></h3>
+						<p>Lorem ipsum consectetuer adipiscing </p>
+						<span class="actual">$12.00</span><br>
+						<ul class="buttons">
+							<li class="cart"><a href="#">Add To Cart</a></li>
+							<li class="shop_btn"><a href="#">Read More</a></li>
+							<div class="clear"> </div>
+					    </ul>
+				    </div>
+				</div>
+				<div class="col-md-3 shop_box"><a href="single.html">
+					<img src="../img/Catus/catus/6.png" class="img-responsive" alt="">
+					<span class="new-box">
+						<span class="new-label">New</span>
+					</span>
+					<span class="sale-box">
+						<span class="sale-label">Sale!</span>
+					</span>
+					</a><div class="shop_desc"><a href="single.html">
+						</a><h3><a href="single.html"></a><a href="#">aliquam volutp</a></h3>
+						<p>Lorem ipsum consectetuer adipiscing </p>
+						<span class="actual">$12.00</span><br>
+						<ul class="buttons">
+							<li class="cart"><a href="#">Add To Cart</a></li>
+							<li class="shop_btn"><a href="#">Read More</a></li>
+							<div class="clear"> </div>
+					    </ul>
+				    </div>
+				</div>
+				<div class="col-md-3 shop_box"><a href="single.html">
+					<img src="../img/Catus/catus/7.png" class="img-responsive" alt="">
+					<span class="new-box">
+						<span class="new-label">New</span>
+					</span>
+					</a><div class="shop_desc"><a href="single.html">
+						</a><h3><a href="single.html"></a><a href="#">aliquam volutp</a></h3>
+						<p>Lorem ipsum consectetuer adipiscing </p>
+						<span class="reducedfrom">$66.00</span>
+						<span class="actual">$12.00</span><br>
+						<ul class="buttons">
+							<li class="cart"><a href="#">Add To Cart</a></li>
+							<li class="shop_btn"><a href="#">Read More</a></li>
+							<div class="clear"> </div>
+					    </ul>
+				    </div>
+				</div>
+				<div class="col-md-3 shop_box"><a href="single.html">
+					<img src="../img/Catus/catus/8.png" class="img-responsive" alt="">
+					<span class="new-box">
+						<span class="new-label">New</span>
+					</span>
+					<span class="sale-box">
+						<span class="sale-label">Sale!</span>
+					</span>
+					</a>
+                    <div class="shop_desc"><a href="single.html">
+						</a><h3><a href="single.html"></a><a href="#">aliquam volutp</a></h3>
+						<p>Lorem ipsum consectetuer adipiscing </p>
+						<span class="reducedfrom">$66.00</span>
+						<span class="actual">$12.00</span><br>
+						<ul class="buttons">
+							<li class="cart"><a href="#">Add To Cart</a></li>
+							<li class="shop_btn"><a href="#">Read More</a></li>
+							<div class="clear"> </div>
+					    </ul>
+				    </div>
+				</div>
+			</div>
+        </div>
+    </div>
+<hr>
+
+<!-- Follow -->
+<section class="social">
+    <p>Redes Sociales</p>
+    <div class="links">
+    <a href="https://facebook.com">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://twitter.com">
+        <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://linkdin.com">
+        <i class="fab fa-linkedin"></i>
+    </a>
+    </div>
+</section>
+</div>
+
+<!-- Footer Links -->
+<div class="footer-links">
+<div class="footer-container">
+    <ul>
+    <li>
+        <a href="#">
+        <h3>Lorem, ipsum.</h3>
+        </a>
+    </li>
+    <li>
+        <a href="#">lorem</a>
+    </li>
+    <li>
+        <a href="#">Lorem ipsum dolor sit.</a>
+    </li>
+    <li>
+        <a href="#">Lorem ipsum dolor sit.</a>
+    </li>
+    </ul>
+    <ul>
+    <li>
+        <a href="#">
+        <h3>Lorem, ipsum.</h3>
+        </a>
+    </li>
+    <li>
+        <a href="#">Lorem, ipsum.</a>
+    </li>
+    <li>
+        <a href="#">Lorem, ipsum.</a>
+    </li>
+    <li>
+        <a href="#">Lorem, ipsum dolor.</a>
+    </li>
+    </ul>
+    <ul>
+    <li>
+        <a href="#">
+        <h3>lorem</h3>
+        </a>
+    </li>
+    <li>
+        <a href="#">Lorem, ipsum.</a>
+    </li>
+    <li>
+        <a href="#">Lorem, ipsum dolor.</a>
+    </li>
+    <li>
+        <a href="#">Lorem, ipsum dolor.</a>
+    </li>
+    </ul>
+    <ul>
+    <li>
+        <a href="#">
+        <h3>Lorem, ipsum.</h3>
+        </a>
+    </li>
+    <li>
+        <a href="#">Lorem, ipsum.</a>
+    </li>
+    <li>
+        <a href="#">Lorem, ipsum dolor.</a>
+    </li>
+    <li>
+        <a href="#">Lorem, ipsum dolor.</a>
+    </li>
+    </ul>
+</div>
+</div>
+
+<!-- Scroll Reveal -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--main-->
+<script src="main.js"></script>
+<!--Script-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
